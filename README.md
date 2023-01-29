@@ -19,6 +19,6 @@ Finally, Fourier interpolations for both B and V are put on a common time grid t
 
 ### Example Use Case
 
-See [**fit_fourier_series.ipynb**](https://github.com/sam-m-ward/Pulsating-Variable-Star/blob/main/fit_fourier_series.ipynb) for example
+See [**fit_fourier_series.ipynb**](https://github.com/sam-m-ward/Pulsating-Variable-Star/blob/main/fit_fourier_series.ipynb).
 
 These techniques were used in [**BScReport.pdf**](https://github.com/sam-m-ward/Analysis_Reports/blob/main/BScReport.pdf)
