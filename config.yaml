@@ -1,0 +1,22 @@
+#Data
+datapath         : 'data/'
+property_labels  : ['colour','band']
+files : { 'B_LC'  : ['blue',   'B'],
+          'V_LC'  : ['magenta','V'],
+          'BV_LC' : ['green',  'B-V'],
+          'T_LC'  : ['red',    'Temperature']
+          }
+
+#Max no. of sine waves to fit
+Nsinmax : 10
+#Whether to standardise data before fitting Fourier series
+standardise : True
+#Max change in reduced chi squared to accept
+max_dchi : 0.15
+#Number of points in continuous Fourier function
+Ncont : 1000
+#Reddening
+EBV : 0.51
+
+#Plotting parameters
+FS   : 18
