@@ -1,9 +1,11 @@
 # Pulsating-Variable-Star
 Fourier series fitting using $\chi^2$-minimisation
 
-This notebook fits B and V light curves of a pulsating variable star: AH Cam
+## Motivation
 
-### Method
+This notebook fits B and V light curves of a pulsating variable star: AH Cam, to derive physical properties like Temperature.
+
+## Method
 
 It uses scipy.optimise to fit a Fourier series of the form:
 
@@ -17,7 +19,7 @@ Algorithm standardises data, ensuring time is in (0,1), and brightness is approx
 
 Finally, Fourier interpolations for both B and V are put on a common time grid to compute a B-V Fourier series, from which Temperature can be derived.
 
-### Example Use Case
+## Example Use Case
 
 See [**fit_fourier_series.ipynb**](https://github.com/sam-m-ward/Pulsating-Variable-Star/blob/main/fit_fourier_series.ipynb).
 
