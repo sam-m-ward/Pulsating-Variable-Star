@@ -3,7 +3,7 @@ Fourier series fitting using $\chi^2$-minimisation
 
 ## Motivation
 
-This notebook fits B and V light curves of a pulsating variable star: AH Cam, to derive physical properties like Temperature.
+This notebook fits B and V light curves of a pulsating variable star, AH Cam, to derive physical properties like Temperature.
 
 ## Method
 
