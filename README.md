@@ -11,7 +11,7 @@ It uses scipy.optimise to fit a Fourier series of the form:
 
 $f(t) = A_0 + \sum_{i=1} A_i sin(\omega_i t + \phi_i)$,
 
-where maximum $i=N_{sin}$. Fitting is performed sequentially, first fitting with $N_{sin}=1$, then using these best-fit parameters as intialisations for $N_{sin}=2$, and so on... 
+where $i=1...N_{sin}$. Fitting is performed sequentially, first fitting with $N_{sin}=1$, then using these best-fit parameters as intialisations for $N_{sin}=2$, and so on... 
 
 Optimum number of sine waves is determined by where $\Delta \chi^2_{\nu}<0.15$, as $N_{sin}$ is increased by 1.
 
